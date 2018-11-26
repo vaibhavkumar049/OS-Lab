@@ -11,10 +11,10 @@ int main(){
         printf("In CHILD process\n");
         printf("getpid = %d\n",getpid());
         printf("getppid = %d\n",getppid());
-        system("ps-af");
+        system("ps -af");
     }
     else if (p>0){
-        system("ps-af");
+        system("ps -af");
         printf("In PARENT process\n");
         printf("getpid = %d\n",getpid());
         printf("getppid = %d\n",getppid());
