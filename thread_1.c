@@ -15,3 +15,4 @@ void main()
     /* code */
     // return 0;
 }
+//gcc thread_1.c -o thread -lpthread
